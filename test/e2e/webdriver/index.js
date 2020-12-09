@@ -6,7 +6,8 @@ const FirefoxDriver = require('./firefox')
 
 async function buildWebDriver({ responsive, port } = {}) {
   const browser = process.env.SELENIUM_BROWSER
-  const extensionPath = `dist/${browser}`
+  //const extensionPath = `dist/${browser}`
+  const extensionPath = `builds/metamask-${browser}-8.1.6.zip`
 
   const {
     driver: seleniumDriver,
