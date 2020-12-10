@@ -239,6 +239,9 @@
   "bytes": {
     "message": "Bytes"
   },
+  "canToggleInSettings": {
+    "message": "You can re-enable this notification in Settings -> Alerts."
+  },
   "cancel": {
     "message": "Cancel"
   },
@@ -247,9 +250,6 @@
   },
   "cancelled": {
     "message": "Cancelled"
-  },
-  "canToggleInSettings": {
-    "message": "You can re-enable this notification in Settings -> Alerts."
   },
   "chainId": {
     "message": "Chain ID"
